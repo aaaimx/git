@@ -1,0 +1,75 @@
+/**
+ * Custom Styles here.
+ *
+ * ref：https://v1.vuepress.vuejs.org/config/#index-styl
+ */
+
+/**
+ * Custom Styles here.
+ *
+ * ref：https://v1.vuepress.vuejs.org/config/#index-styl
+ */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Ubuntu:wght@700&display=swap')
+
+primary = #2B5458
+secondary = #949494
+
+.home .hero img
+  max-width 450px!important
+  padding: 2rem 2rem 0
+
+body, html
+  font-family "Roboto", sans-serif !important
+  font-size 15px !important
+  font-weight: 300 !important
+  padding: 0 !important
+  margin: 1.5rem auto !important
+
+strong
+  font-weight 600 !important
+
+h1, h2, h3, h4, h5, h6
+  font-weight 300 !important
+  line-height 1.1 !important
+  display: block !important
+
+p
+  font-size: 15px !important
+  font-weight: 300 !important
+  line-height: 23px !important
+
+nav li a, .ant-menu-submenu-title
+  font-size: 13px !important
+  text-transform: uppercase !important
+
+// .hero #main-title, .home .hero .description
+//   font-family: 'Ubuntu', sans-serif !important
+//   font-size: 42px !important
+//   font-weight: 700 !important
+//   color: primary !important
+//   margin-bottom: 0rem !important
+//   text-transform: uppercase !important
+
+// .home .hero .description
+//   max-width: 35rem !important
+//   font-size: 1.5rem !important
+//   line-height: .5 !important
+//   margin-top: .5rem !important
+//   margin-bottom: 2rem !important
+//   color: secondary !important
+
+// .site-name
+//   font-family: 'Ubuntu', sans-serif !important
+//   font-weight: 700 !important
+//   color: primary !important
+//   text-transform: uppercase !important
+
+@media (max-width: 768px)
+  .site-name
+    display: none !important
+  .logo
+    margin: 1rem !important
+  .navbar
+    position fixed !important
+
+
