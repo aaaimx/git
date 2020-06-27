@@ -72,7 +72,7 @@ module.exports = {
         {
           title: 'Intro',
           collapsable: false,
-          children: ['', 'base-de-datos', 'tdd']
+          children: ['', 'remotes']
         }
       ]
     }
