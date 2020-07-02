@@ -9,56 +9,56 @@ Configure la información del usuario para todos los repositorios locales
       $ git config --global user.email "[email address]"
 
 - Establece el nombre que desea adjuntar a sus transacciones de confirmación
-
+      
       $ git config --global user.name "[name]"
 
-## Create repositories
+## Crear repositorios
 
-When starting out with a new repository, you only need to do it
-once; either locally, then push to GitHub, or by cloning an
-existing repository.
+Al comenzar con un nuevo repositorio localmente, solo necesita hacerlo una vez.
 
-\$ git init
-Turn an existing directory into a git repository
+- Convierte un directorio existente en un repositorio git
 
-\$ git clone [url]
-Clone (download) a repository that already exists on
-GitHub, including all of the files, branches, and commits
+      $ git init
 
 
-## Make changes
-Browse and inspect the evolution of project files
+## Hacer cambios
 
-$ git status
-Outputs metadata and content changes of the specified commit
+Examinar e inspeccionar la evolución de los archivos del proyecto.
 
-$ git add [file]
-Snapshots the file in preparation for versioning
+- Muestra metadatos y cambios de contenido de la confirmación especificada
 
-\$ git commit -m "[descriptive message]"
-Records file snapshots permanently in version history
+      $ git status
 
-$ git log
-Lists version history for the current branch
+- Instantáneas del archivo en preparación para el versionado
 
-## The .gitgnore file
+      $ git add [archivo]
 
-Sometimes it may be a good idea to exclude files from being
-tracked with Git. This is typically done in a special file named
-.gitignore . You can find helpful templates for .gitignore
-files at github.com/github/gitignore.
+- Registra confirmaciones de archivos permanentemente en el historial de versiones
+  
+      $ git commit -m "[mensaje descriptivo]"
 
-## The .gitkeep file
+- Muestra el historial de versiones de la rama actual
+  
+      $ git log
+
+## El archivo .gitgnore
+
+A veces puede ser una buena idea excluir archivos de ser rastreados con Git. Esto normalmente se hace en un archivo especial llamado `.gitignore`. Puede encontrar plantillas útiles para archivos `.gitignore` en [gitignore templates](https://github.com/github/gitignore).
 
 
-## Branches
+## Ramas
 
-Branches are an important part of working with Git. Any
-commits you make will be made on the branch you're currently
-“checked out” to. Use git status to see which branch that is.
-\$ git branch [branch-name]
-Creates a new branch
+Las ramas son una parte importante de trabajar con Git. Cualquier confirmación que realice se realizará en la sucursal a la que está actualmente "desprotegido". Use `git status` para ver qué rama es esa. 
 
-\$ git checkout [branch-name]
-Switches to the specified branch and updates the
-working directory
+- Crea una nueva rama, sin moverse de la rama actual
+  
+      $ git branch [nombre-rama] 
+
+- Cambia a la rama especificada y actualiza el directorio de trabajo
+  
+      $ git checkout [nombre-rama] 
+
+- Crea una nueva rama, y cambia a la rama especificada. [Los 2 comandos anteriores en 1 solo]
+
+      $ git checkout -b [nombre-rama]
+
