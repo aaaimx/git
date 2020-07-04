@@ -59,7 +59,7 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Intro',
+        text: 'Comandos',
         link: '/intro/'
       },
       {
