@@ -15,8 +15,8 @@ Git es un sistema de control de versiones distribuido libre y de código abierto
 
 # Objetivos de aprendizaje
 
-- Conocer los comandos basicos de **git** para **repositorios locales**.
-- Conocer los comandos basicos para manejo de **repositorios remotos**.
+- Conocer los comandos básicos de **git** para **repositorios locales**.
+- Conocer los comandos básicos para manejo de **repositorios remotos**.
 - Implementar herramientas como [Markdown]() para escribir documentación de nuestros proyectos.
 - Utilizar [Github]() como hosting de nuestros proyectos y portafolio personal.
 

@@ -14,6 +14,6 @@
 - **modified**: significa que has modificado el archivo pero todavía no lo has confirmado a tu base de datos.
 - **staged**: significa que has marcado un archivo modificado en su versión actual para que vaya en tu próxima confirmación.
 - **deleted**: significa que un archivo ha sido eliminado de tu base de datos local.
-- **CONFLICT**: siginifica que el historial de cambios de 2 ramas que se quieren mezclar son inconsistentes en tiempo por lo que debe haber una interacción humana y elegir los cambios que se aceptaran para un commit.
+- **CONFLICT**: siginifica que el historial de cambios de 2 ramas que se quieren mezclar son inconsistentes en tiempo por lo que debe haber una interacción humana y elegir los cambios que se aceptarán para un commit.
 - **tag**: es un alias para un commit específico y es el elemento básico de la semántica de versionado.
 - **ssh keys**: Las claves SSH proporcionan una forma más segura de iniciar sesión en un servidor con SSH que utilizando una contraseña sola.
