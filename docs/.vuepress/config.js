@@ -63,6 +63,10 @@ module.exports = {
         link: '/intro/'
       },
       {
+        text: 'Gitflow',
+        link: '/gitflow/'
+      },
+      {
         text: 'Glosario',
         link: '/glossary/'
       }
@@ -73,6 +77,13 @@ module.exports = {
           title: 'Intro',
           collapsable: false,
           children: ['', 'remotes']
+        }
+      ],
+      '/gitflow/': [
+        {
+          title: 'Gitflow',
+          collapsable: false,
+          children: ['']
         }
       ]
     }
